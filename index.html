@@ -1,15 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello world </h1>
-    <h2>hello world </h2> 
-    <h3>hello world </h3>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Construction</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> ETS Construction</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="#"><i class="glyphicon glyphicon-home"></i> home </a></li>
+                    <li> <a href="#"> | about </a> </li>
+                    <li> <a href="#"><i class="glyphicon glyphicon-eye-open"></i>services</a> </li>
+                    <li> <a href="#"><i class=" glyphicon glyphicon-wrench"></i> Our work</a> </li>
+                    <li> <a href="#"><i class="glyphicon glyphicon-user"></i> conacte</a> </li>
+                </ul>
+            </div>
+        </div>
+    
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="welcome text-center">
+                    <div class="table">
+                        <div class="table-cell">
+                            <h1> BUILDING TOGETHER </h1>
+                            <a href="#">chek our work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</nav>
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="inner_about">
+                        <div class="title ">
+                            <h4> ETS Construction Company, has a proud tradition
+                                of service as a General Contractor since 1999</h4>
+
+                            <p> ETS Construction Company, headquartered in Algeria, brings over 21 years of local and
+                                national
+                                construction experience; with a reputation for delivering large and unique design-build
+                                projects
+                                ahead of schedule and on budget. Our company has served clients and building owners for
+                                over
+                                tow decades. In that time, we have found that the key to every project’s success is
+                                understanding
+                                the Owner’s needs and expectations and then exceeding those expectations.
+                            </p>
+                            <a href="#">Read our story</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="inner_services">
+                        <h4>We Offer a Wide Range of Services </h4>
+
+                        <p> From conception to completion, our entire team of estimators, designers,
+                            project managers and experienced executives make our clients’ needs a priority.
+                            We have experience in a wide variety of projects and delivery methods,
+                            and use both time-proven practices and cutting-edge techniques
+                            to make sure our customers’ projects meet their maximum potential.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo2.jpg" alt="work 1" data-toggle="modal" data-target="#myModal">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 1 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo2.jpg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo3.jpg" alt="work 1" data-toggle="modal" data-target="#myModal2">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel"> Work 2 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo3.jpg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo4.jpg" alt="work 1" data-toggle="modal" data-target="#myModal3">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 3 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo4.jpg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo5.jpeg" alt="work 1" data-toggle="modal" data-target="#myModal4">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 4 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo5.jpeg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo6.jpeg" alt="work 1" data-toggle="modal" data-target="#myModal5">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 5 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo6.jpeg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo7.jpeg" alt="work 1" data-toggle="modal" data-target="#myModal6">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 6 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo7.jpeg" alt="work 6">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo8.jpeg" alt="work 1" data-toggle="modal" data-target="#myModal7 ">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 7 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo8.jpeg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo9.jpeg" alt="work 1" data-toggle="modal" data-target="#myModal8">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 9 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo9.jpeg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 w-item">
+                    <img src="images/photo10.jpeg" alt="work 1" data-toggle="modal" data-target="#myModal9">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Work 9 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/photo10.jpeg" alt="work 1">
+                                    <hr>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore deserunt
+                                        praesentium quod voluptatibus soluta animi molestiae? Corporis tempora soluta,
+                                        ipsam similique libero labore impedit id architecto, aspernatur vero dolores.
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">share</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact us">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="inner_services">
+                        <h4>Contact Us</h4>
+
+                        <p> Please feel free to call us to discuss your upcoming project!
+                            For inquiries about employment, subcontracting for us,
+                            or information about our current project, please use
+                            the form below so we can connect you to the best person to help you.
+                        </p>
+                        <li> <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModal" data-whatever="@mdo">Get In Touch</button>
+                        </li>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Full Name:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email" class="control-label">Email Adress:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="subject" class="control-label">Subject:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message-text" class="control-label">Message:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Send </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-social-icons text-center ">
+                 <ul>
+                    <li><a href="https://www.facebook.com/login/?locale2=ru_RU" > <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a  href="https://twitter.com/?lang=uk" >  <i class="fa fa-twitter" aria-hidden="true"></i></a ></li>
+                    <li><a href="https://www.instagram.com/?hl=uk" >  <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/" >  <i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul> 
+                </div> 
+
+                <div class="  site-info text-center ">
+                    <p> &copy; 2020  by : Benzaoucha Zakaria </p>
+                    
+                 </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

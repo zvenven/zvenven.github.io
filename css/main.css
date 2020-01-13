@@ -1,0 +1,177 @@
+body {
+    font-family: 'Stoke', serif;
+     
+
+}
+
+.table {
+    display: table;
+    widows: 100%;
+    height: 100%;
+}
+.table-cell{
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+ img{  
+    max-width: 100%;
+    margin: 5px;
+
+}
+
+ /* Navbar */
+.navbar-default 
+{ background: #382828;
+
+}
+
+.navbar-brand 
+{
+    padding: 40px 15px ;
+    font-size: 30px ;
+    
+}
+
+.navbar-nav li a 
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}     
+.navbar a :hover
+{
+    background-color: #49b880;
+     
+}
+.hero {
+    background-image: url('../images/img1.jpg');
+    background-position: bottom ;
+    background-attachment: fixed ;
+    height: 700px;
+    background-size: cover;
+    background-position: center center;
+   
+}
+.welcome {
+    height: 600px;
+    font-family: 'Permanent Marker', cursive;
+}
+.welcome a{
+    background: #49b880;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/*about section */
+
+ .inner_about {
+     background: #ffffff;
+     padding: 30px;
+     border-radius: 20px;
+     margin: 30px 0px;
+     height: 300px;
+ }
+ h4{
+     line-height: 40px;
+     text-align: justify;
+     
+ }
+ .inner_about p {
+     color: #999999;
+     line-height: 25px;
+     text-align: justify;
+     font-family: 'Permanent Marker', cursive;
+ }
+
+ /*about services */
+
+ .inner_services {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px 0px;
+    height: 200px;
+    border-radius: 2px
+}
+h4{
+    line-height: 40px;
+    text-align: justify;
+    
+}
+.inner_services p {
+    color: #999999;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* work */
+.work{
+    margin: 50px 0px;
+}
+
+/* contact us */
+.contact {
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 30px 0px;
+    height: 250px;
+}
+h4{
+    line-height: 40px;
+    text-align: justify;
+    font-size: 30px;
+}
+.contact p {
+    color: #382828;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Permanent Marker', cursive;
+}
+/*footer */ 
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.footer {
+   
+    background: #382828;
+    padding: 40px 0px; 
+       
+}
+.footer p 
+{    
+    color: rgb(81, 243, 221);
+    font-size: 15px;
+    margin-top: 40px;
+}
+.footer-social-icons ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    align-items: center; 
+    text-align: center;
+    line-height: 3em;
+    width: 3em;
+    height: 3em;
+    padding: 0  9px;
+    margin-left: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.footer a 
+{
+    color: rgb(87, 163, 214);
+    margin-right: 15px;
+}
+.footer a :hover {
+    color: rgb(69, 189, 149);
+}
+.footer a i {
+    font-size: 25px;
+}
+ 
